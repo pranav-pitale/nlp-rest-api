@@ -3,7 +3,7 @@ from flask_restful import Resource
 from util.parser import Parser
 
 
-class GetEntities(Resource):
+class NLPEntities(Resource):
 
     def get(self):
         str_text = request.args.get('text')
