@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# REST API hosted using SciSpacy for Entity Linkage
-=======
+
 # REST API hosted using SciSpacy for Entity Linkage
 
 ## Run locally
@@ -157,7 +155,3 @@ http://0.0.0.0:5000/api/Entities?text=Spinal and bulbar muscular atrophy
     ]
 }
 ```
-
-
-
->>>>>>> 9cf99c95e8023fa265408445f97cc016fc33ed32
