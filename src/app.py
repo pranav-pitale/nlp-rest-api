@@ -8,4 +8,4 @@ api = Api(api_bp)
 
 # Route Configuration
 api.add_resource(Health, '/Health')
-api.add_resource(NLPEntities,'/GetEntities')
+api.add_resource(NLPEntities,'/Entities')

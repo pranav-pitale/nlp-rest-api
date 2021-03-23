@@ -1,1 +1,1 @@
-# nlp-rest-api
+# REST API hosted using SciSpacy for Entity Linkage
