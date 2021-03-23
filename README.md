@@ -1,6 +1,6 @@
 # REST API hosted using SciSpacy for Entity Linkage
 
-## How to run locally
+## Run locally
 
 To clone and run this application, you'll need [Git](https://git-scm.com) installed on your computer. From your command line:
 
@@ -22,7 +22,7 @@ $ python wsgi.py
 
 ```
 
-## How to run locally using web server
+## Run locally using web server
 
 ```bash
 
@@ -30,3 +30,20 @@ $ python wsgi.py
 $ gunicorn --bind 0.0.0.0:5000 wsgi:app --timeout 3600
 
 ```
+## Run locally using Docker
+
+Install docker on your machine
+
+```bash
+$ cd src
+
+# Build Docker Image
+$ docker build .
+
+# Build Docker Image
+$ docker run -p 8000:8000 -i -t IMAGE_ID
+
+```
+
+
+
